@@ -49,7 +49,7 @@ Aws::SDKOptions options;
 
 Job_queue::Job_queue()
 {
-	queue_url = "https://sqs.ap-southeast-2.amazonaws.com/116127515664/OpenTraderQueue";
+	queue_url = ";
 	Aws::InitAPI(options);
 }
 
